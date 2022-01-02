@@ -1,0 +1,16 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: matrix(0.586, 0.8, -0.8, 0.686, 0, 0);
+  transition: 0.5s ease;
+}
